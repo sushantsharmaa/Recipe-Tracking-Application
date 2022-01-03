@@ -14,7 +14,7 @@ function App() {
         <div className="main">
             <AddRecipe onAdd={addItem} />
             <div className="container-two">
-                <h1>ALL RECIPE</h1>
+                <h1>ALL RECIPES</h1>
                 {items.map(item => {
                     return <Item
                     title={item.title}

@@ -35,8 +35,9 @@ body {
   display: flex;
 }
 
-.details h1, p{
+.details h3, p{
   padding-bottom: 10px;
+  font-size: 2rem;
 }
 
 .item > div {

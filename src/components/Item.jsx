@@ -6,9 +6,9 @@ function Item(props){
             <div><img src={props.image}></img></div>
            <div className="details">
                <h3>{props.title}</h3>
-               <p>Time {props.time}</p>
+               <p>Time: {props.time}</p>
                <p>Ingredients: {props.ingredients}</p>
-               <p>Instructions{props.instructions}</p>
+               <p>Instructions: {props.instructions}</p>
            </div>          
         </div>
     )
